@@ -1,0 +1,94 @@
+/*----styles.css-----*/
+body {
+    font-family: 'Merriweather', serif;
+}
+.wrapper {
+    margin: 0 auto;
+}
+.header {
+    margin-top: -22px;
+    background: #152d54;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.banner {
+    text-align: center;
+    border-bottom: 3px solid #000;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.banner p {
+    color: lightgray;
+}
+
+.banner::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom:498px;
+    width: 95%;
+    margin: 0 auto;
+    height: 4px;
+    background: #000;
+}
+
+form {
+  max-width: 100%;
+  margin: 10px auto;
+  padding: 10px 20px;
+ }
+
+fieldset {
+  border: none;
+  border-bottom: 2px solid #000;
+}
+
+label[for="name"],
+label[for="email"],
+label[for="address"],
+label[for="tel"],
+label[for="city"],
+label[for="state"],
+label[for="zip"] {
+    display: block;
+    color: grey;
+    margin-bottom: 5px;
+}
+
+input[placeholder] {
+    text-align: right;
+    font-style: italic;
+    font-size: .85em;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 95%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+
+input[type="number"] {
+    width: 50%;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border: 2px solid #152d54;
+    border-radius: 2%;
+}

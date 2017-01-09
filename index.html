@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Newsletter Sign-up</title>
   <link href="css/normalize.css" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet">
@@ -43,7 +44,8 @@
                 
                 <label for="state">State</label>
                 <select id="state" name="user_state">
-                <optgroup label="Choose A State">
+                <optgroup>
+					<option selected hidden disabled>Choose State</option>
                     <option value="AL">Alabama</option>
 					<option value="AK">Alaska</option>
 					<option value="AZ">Arizona</option>
@@ -112,7 +114,7 @@
             </fieldset>
 			<fieldset>
 
-            <h4>Newsletter</h4>
+            <legend>Newsletter</legend>
 
             <p>Select the newsletters you would like to receive</p>
 
@@ -125,9 +127,9 @@
             <input type="radio" id="format-1" name=user_format><label for="format-1">HTML</label><br>
             <input type="radio" id="format-2" name="user_format"><label for="format-2">Plain text</label><br>
 
-            <span>Other topics you'd like to hear about</span><br>
+            <label for="other-topics">Other topics you'd like to hear about</label><br>
 
-            <textarea></textarea><br>
+            <textarea id="other-topics"></textarea><br>
 
             <button type="submit">Sign Up</button>
 			</fieldset>

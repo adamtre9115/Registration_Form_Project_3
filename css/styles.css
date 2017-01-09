@@ -17,6 +17,7 @@ body {
     text-align: center;
     padding: 20px 0;
 }
+
 .container {
     max-width: 98%;
     margin: 0 auto;
@@ -26,6 +27,11 @@ body {
     text-align: center;
     width: 95%;
     margin: 0 auto;
+}
+
+.banner p {
+    font-size: .95em;
+    margin-bottom: 20px;
 }
 
 .line1 {
@@ -103,6 +109,12 @@ textarea:focus {
     border-radius: 2%;
 }
 
+input:hover,
+select:hover,
+textarea:hover {
+    border:2px solid #152d54;
+    transition-duration: .5s;
+}
 textarea {
     height: 75px;
 }
@@ -114,6 +126,12 @@ button[type="submit"] {
     width: 100%;
     padding: 20px;
     border-radius: 5px;
+}
+
+button[type="submit"]:hover {
+    background: silver;
+    color: black;
+    transition: .5s;
 }
 
 .copyright {
@@ -153,6 +171,39 @@ p,
 .copyright {
     color: #8a97a0;
    }
+label[for="name"],
+label[for="email"],
+label[for="address"],
+label[for="tel"],
+label[for="city"],
+label[for="state"],
+label[for="zip"] {
+    display: block;
+}
+
+label[for="name"],
+label[for="email"],
+label[for="address"],
+label[for="tel"],
+label[for="city"],
+label[for="state"],
+label[for="zip"],
+label[for="html"],
+label[for="css"],
+label[for="javascript"],
+label[for="format-1"],
+label[for="format-2"] {
+    font-size: .85em;
+    font-weight: bold;
+}
+
+label[for="html"],
+label[for="css"],
+label[for="javascript"],
+label[for="format-1"],
+label[for="format-2"] {
+    margin-left: 10px;
+}
 
 
 
@@ -162,5 +213,36 @@ p,
     .container {
         max-width: 65%;
     }
+
+    .wrapper {
+        max-width: 1290px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    input[type="tel"] {
+        width: 65%;
+    }
+
+    select {
+        width: 71%;
+    }
+
+        input[type="number"] {
+              width: 30%;
+}
+
+label[for="name"],
+label[for="email"],
+label[for="address"],
+label[for="tel"],
+label[for="city"],
+label[for="state"],
+label[for="zip"] {
+    display: inline-block;
+    width: 110px;
+
+}
 
 }

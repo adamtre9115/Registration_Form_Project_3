@@ -20,13 +20,13 @@ body {
 }
 
 .container {
-    max-width: 98%;
+    max-width: 100%;
     margin: 0 auto;
 }
 
 .banner {
     text-align: center;
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -90,7 +90,7 @@ select {
   margin: 0 auto;
   outline: 0;
   padding: 15px;
-  width: 95%;
+  width: 100%;
   background-color: #e8eeef;
   box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
   margin-bottom: 30px;

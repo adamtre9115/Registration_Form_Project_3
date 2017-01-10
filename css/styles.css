@@ -20,7 +20,7 @@ body {
 }
 
 .container {
-    max-width: 100%;
+    max-width: 95%;
     margin: 0 auto;
 }
 
@@ -228,11 +228,11 @@ label[for="format-2"] {
     input[type="email"],
     input[type="number"],
     input[type="tel"] {
-        width: 65%;
+        width: 72%;
     }
 
     select {
-        width: 65%;
+        width: 72%;
     }
 
         input[type="number"] {
